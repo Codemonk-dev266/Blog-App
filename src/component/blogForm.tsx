@@ -100,28 +100,6 @@ export default function BlogForm({
       </div>
     </form>
 
-    // <form
-    //   onSubmit={handleSubmit(onSubmitForm)}
-    //   className="flex flex-col border w-fit gap-4"
-    // >
-    //   <div>
-    //     <input
-    //       type="text"
-    //       className="border rounded-sm"
-    //       placeholder="Blog title"
-    //       {...register("title", { required: "title is required" })}
-    //     />
-    //     {errors.title && <p>{errors.title.message}</p>}
-    //   </div>
-    //   <div>
-    //     <textarea
-    //       className="border rounded-sm"
-    //       placeholder="content"
-    //       {...register("content", { required: "content is required" })}
-    //     ></textarea>
-    //     {errors.title && <p>{errors.title.message}</p>}
-    //   </div>
-    //   <button>{isSubmitting ? "saving..." : "save blog"}</button>
-    // </form>
+   
   );
 }
