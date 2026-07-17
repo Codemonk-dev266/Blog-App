@@ -36,12 +36,6 @@ export default function BlogItems({ blog, onDelete, onSelect }: blogItemType) {
     </button>
   </div>
 </li>
-    // <li key={blog.id}>
-    //   <h1>{blog.title}</h1>
-    //   <p>{blog.content}</p>
-
-    //   <button onClick={() => onDelete(blog.id)}>Delete</button>
-    //   <button onClick={() => onSelect(blog)}>Edit blog</button>
-    // </li>
+    
   );
 }
