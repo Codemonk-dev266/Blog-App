@@ -45,19 +45,5 @@ export default function BlogLists({ refresh, onSelect }: BlogListType) {
         ))}
       </ul>
     </div>
-
-    // <div>
-    //   <h1>Blog List</h1>
-    //   <ul>
-    //     {blogs?.map((blog) => (
-    //       <BlogItems
-    //         key={blog.id}
-    //         blog={blog}
-    //         onDelete={handleDelete}
-    //         onSelect={onSelect}
-    //       />
-    //     ))}
-    //   </ul>
-    // </div>
   );
 }
