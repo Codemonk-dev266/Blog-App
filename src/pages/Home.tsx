@@ -54,27 +54,7 @@ export default function Home() {
         </main>
       </div>
     </section>
-    // <section className="flex flex-row gap-5 p-4">
-    //   <div className="flex flex-col gap-5 w-3xs">
-    //     <button
-    //       onClick={() => setOpenForm(true)}
-    //       className="text-white bg-black rounded px-4 py-2 w-fit"
-    //     >
-    //       + new blog
-    //     </button>
-    //     <BlogLists refresh={refresh} onSelect={handleSelect} />
-    //   </div>
-
-    //   <div className="flex-1 gap-4 p-6 ">
-    //     {openForm && (
-    //       <BlogForm
-    //         onRefresh={handleRefresh}
-    //         onClose={closeForm}
-    //         selectedBlog={selectedBlog}
-    //       />
-    //     )}
-    //   </div>
-    // </section>
+    
   );
 }
 
